@@ -1,4 +1,4 @@
-import { Features, Header, Hero, Additionalinformation } from "./components/index";
+import { Features, Header, Hero, Additionalinformation, Testimonials } from "./components/index";
 
 
 
@@ -18,6 +18,7 @@ function App() {
         <Hero />
         <Features />
         <Additionalinformation />
+        <Testimonials />
       </section>
     </main>
 
