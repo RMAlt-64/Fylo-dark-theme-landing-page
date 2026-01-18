@@ -5,3 +5,4 @@ export { Button } from "./Button";
 export { Features } from "./Features";
 export { Additionalinformation } from "./Additionalinformation";
 export { Testimonials } from "./Testimonials";
+export { CardsTestimonials } from "./CardsTestimonials";
