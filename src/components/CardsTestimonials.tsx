@@ -29,15 +29,15 @@ const testimonials: TestimonialsProps[] = [
 export const CardsTestimonials = () => {
 
     return (
-        <div>
+        <div className="flex flex-col gap-6 items-center">
             {testimonials.map((testimonial: TestimonialsProps) => (
-                <div className="rounded-xs bg-gray-800 p-5">
-                    <p className="font-OpenSans text-sm mb-5">{testimonial.testimonial}</p>
-                    <div className="flex ">
+                <div className="rounded-xs bg-Navy-800 p-5 w-[325px]" key={testimonial.name}>
+                    <p className="text-[0.78rem] mb-5 font-OpenSans">{testimonial.testimonial}</p>
+                    <div className="flex items-center">
                         <img src={testimonial.image} alt={testimonial.name} className="rounded-full w-10 h-10 mr-3" />
                         <div>
-                            <h3 className="font-bold font-OpenSans text-sm">{testimonial.name}</h3>
-                            <p className="text-xs font-OpenSans">{testimonial.position}</p>
+                            <h3 className="font-bold text-[0.8rem] mb-1">{testimonial.name}</h3>
+                            <p className="text-[0.6rem] font-OpenSans">{testimonial.position}</p>
                         </div>
                     </div>
                 </div>

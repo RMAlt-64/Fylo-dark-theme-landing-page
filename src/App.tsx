@@ -11,8 +11,8 @@ function App() {
     <main className="w-[375px] m-auto">
       <section className="bg-Navy-850 p-2 h-[420px] relative" >
         <Header />
-        <img className="relative z-10" src="/images/illustration-intro.png" alt="illustration" />
-        <img className="absolute left-0 bottom-0" src="/images/bg-curvy-mobile.svg" alt="bg-curvy" />
+        <img className="relative z-10" src="./src/assets/images/illustration-intro.png" alt="illustration" />
+        <img className="absolute left-0 bottom-0" src="./src/assets/images/bg-curvy-mobile.svg" alt="bg-curvy" />
       </section>
       <section className="bg-Navy-900 p-6">
         <Hero />
