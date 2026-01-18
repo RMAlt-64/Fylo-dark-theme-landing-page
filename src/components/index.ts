@@ -6,3 +6,4 @@ export { Features } from "./Features";
 export { Additionalinformation } from "./Additionalinformation";
 export { Testimonials } from "./Testimonials";
 export { CardsTestimonials } from "./CardsTestimonials";
+export { Form } from "./Form";

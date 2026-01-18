@@ -1,4 +1,4 @@
-import { Features, Header, Hero, Additionalinformation, Testimonials } from "./components/index";
+import { Features, Header, Hero, Additionalinformation, Testimonials, Form } from "./components/index";
 
 
 
@@ -14,11 +14,14 @@ function App() {
         <img className="relative z-10" src="./src/assets/images/illustration-intro.png" alt="illustration" />
         <img className="absolute left-0 bottom-0" src="./src/assets/images/bg-curvy-mobile.svg" alt="bg-curvy" />
       </section>
-      <section className="bg-Navy-900 p-6">
+      <section className="bg-Navy-900 p-6 pb-[300px]">
         <Hero />
         <Features />
         <Additionalinformation />
         <Testimonials />
+      </section>
+      <section className="bg-Navy-950 p-6 relative">
+        <Form />
       </section>
     </main>
 
