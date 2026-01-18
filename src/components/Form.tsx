@@ -2,7 +2,7 @@ import { Button } from "./index"
 
 export const Form = () => {
     return (
-        <div className="flex flex-col justify-center items-center gap-4 bg-Navy-850 p-6 rounded-lg text-center w-[336px] mx-auto absolute top-[-180px]">
+        <div className="flex flex-col justify-center items-center gap-4 bg-Navy-850 p-6 rounded-lg text-center absolute top-[-175px] left-[1.094rem] w-[340px]">
             <h1 className="font-bold">Get early access today</h1>
             <p className="text-[0.9rem] mb-6">It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>
             <form action="" className="flex flex-col gap-4 w-full">
