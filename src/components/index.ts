@@ -7,4 +7,6 @@ export { Additionalinformation } from "./Additionalinformation";
 export { Testimonials } from "./Testimonials";
 export { CardsTestimonials } from "./CardsTestimonials";
 export { Form } from "./Form";
-export { Footer } from "./Footer";
+export { Footer } from "./footer/Footer";
+export { ExportLocalitation } from "./footer/ExportLocalitation";
+export { ListaContact } from "./footer/ListaContact";
