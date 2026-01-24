@@ -5,11 +5,6 @@ interface LocalitationProps {
     className?: string;
 }
 
-
-
-
-
-
 export const ExportLocalitation = ({ logo, text, className }: LocalitationProps) => {
     return (
 
