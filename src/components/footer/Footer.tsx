@@ -16,12 +16,13 @@ const contact: string[] = [
 interface LocalitationProps {
     logo: string;
     text: string;
+    className?: string;
 }
 
 const contactDetails: LocalitationProps[] = [
-    { logo: "./src/assets/images/icon-location.svg", text: "Lorem ipsum dolor sit amet consectetur adipisicing elit, set do eiusmod tempor incididunt ut labore et dolore magna aliqua." },
-    { logo: "./src/assets/images/icon-phone.svg", text: "+1-543-123-4567" },
-    { logo: "./src/assets/images/icon-email.svg", text: "example@fylo.com" },
+    { logo: "./src/assets/images/icon-location.svg", text: "Lorem ipsum dolor sit amet consectetur adipisicing elit, set do eiusmod tempor incididunt ut labore et dolore magna aliqua.", className: "flex items-start gap-8" },
+    { logo: "./src/assets/images/icon-phone.svg", text: "+1-543-123-4567", className: "flex items-center gap-8" },
+    { logo: "./src/assets/images/icon-email.svg", text: "example@fylo.com", className: "flex items-center gap-8" },
 ]
 
 export const Footer = () => {
