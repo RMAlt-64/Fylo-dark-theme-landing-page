@@ -1,9 +1,7 @@
 
-interface LocalitationProps {
-    logo: string;
-    text: string;
-    className?: string;
-}
+import type { LocalitationProps } from "./types";
+
+
 
 export const ExportLocalitation = ({ logo, text, className }: LocalitationProps) => {
     return (

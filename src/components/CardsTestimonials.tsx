@@ -7,19 +7,22 @@ interface TestimonialsProps {
 
 const testimonials: TestimonialsProps[] = [
     {
-        image: "/src/assets/images/profile-1.jpg",
+        image: "/images/profile-1.jpg",
+
         name: "Satish Patel",
         position: "Founder & CEO, Huddle",
         testimonial: "Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.",
     },
     {
-        image: "/src/assets/images/profile-2.jpg",
+        image: "/images/profile-2.jpg",
+
         name: "Bruce McKenzie",
         position: "Founder & CEO, Huddle",
         testimonial: "Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.",
     },
     {
-        image: "/src/assets/images/profile-3.jpg",
+        image: "/images/profile-3.jpg",
+
         name: "Iva Boyd",
         position: "Founder & CEO, Huddle",
         testimonial: "Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.",
