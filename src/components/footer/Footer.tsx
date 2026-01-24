@@ -13,11 +13,30 @@ const contact: string[] = [
     "Terms",
     "Privacy",
 ]
+interface LocalitationProps {
+    logo: string;
+    text: string;
+}
+
+const contactDetails: LocalitationProps[] = [
+    { logo: "./src/assets/images/icon-location.svg", text: "Lorem ipsum dolor sit amet consectetur adipisicing elit, set do eiusmod tempor incididunt ut labore et dolore magna aliqua." },
+    { logo: "./src/assets/images/icon-phone.svg", text: "+1-543-123-4567" },
+    { logo: "./src/assets/images/icon-email.svg", text: "example@fylo.com" },
+]
 
 export const Footer = () => {
     return (
         <footer>
-            <ExportLocalitation />
+
+            <img src={"./src/assets/images/logo.svg"} alt="Logo" className="w-[198px] h-[60px] mb-16" />
+            <div className="flex flex-col items-start gap-8 mb-16 ">
+                {contactDetails.map((contactDetail: LocalitationProps) => (
+                    <ExportLocalitation key={contactDetail.logo} {...contactDetail} />
+                ))}
+            </div>
+
+
+
 
             <div className="flex flex-col">
                 <ul className="flex flex-col items-start gap-5 mb-16">
