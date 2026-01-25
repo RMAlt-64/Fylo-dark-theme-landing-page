@@ -34,7 +34,7 @@ export const CardsTestimonials = () => {
     return (
         <div className="flex flex-col gap-6 items-center">
             {testimonials.map((testimonial: TestimonialsProps) => (
-                <div className="rounded-xs bg-Navy-800 p-5 w-[325px]" key={testimonial.name}>
+                <div className="rounded-sm bg-Navy-800 p-5" key={testimonial.name}>
                     <p className="text-[0.78rem] mb-5 font-OpenSans">{testimonial.testimonial}</p>
                     <div className="flex items-center">
                         <img src={testimonial.image} alt={testimonial.name} className="rounded-full w-10 h-10 mr-3" />

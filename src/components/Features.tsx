@@ -4,7 +4,7 @@ import { features } from "./footer/constants";
 
 export const Features = () => {
     return (
-        <div className="flex flex-col gap-20 mt-[140px]">
+        <div className="grid grid-cols-1 gap-20 mt-[140px] md:grid-cols-2">
             {features.map((feature: featuresProps, index: number) => (
                 <div className="flex flex-col items-center text-center" key={index}>
                     <img className="mb-10" src={feature.icon} alt={feature.title} />

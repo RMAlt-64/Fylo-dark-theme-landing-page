@@ -8,8 +8,7 @@ export const ExportLocalitation = ({ logo, text, className }: LocalitationProps)
 
         <div className={className}>
             <img src={logo} alt="Logo" className="" />
-            <p className="">{text}</p>
+            <p className="md: w-[200px]">{text}</p>
         </div>
-
     )
 }
