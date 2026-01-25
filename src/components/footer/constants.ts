@@ -15,9 +15,9 @@ export const contact: string[] = [
 ]
 
 export const contactDetails: LocalitationProps[] = [
-    { logo: "/images/icon-location.svg", text: "Lorem ipsum dolor sit amet consectetur adipisicing elit, set do eiusmod tempor incididunt ut labore et dolore magna aliqua.", className: "flex items-start gap-8" },
-    { logo: "/images/icon-phone.svg", text: "+1-543-123-4567", className: "flex items-center gap-8" },
-    { logo: "/images/icon-email.svg", text: "example@fylo.com", className: "flex items-center gap-8" },
+    { logo: "/images/icon-location.svg", text: "Lorem ipsum dolor sit amet consectetur adipisicing elit, set do eiusmod tempor incididunt ut labore et dolore magna aliqua.", styles: "flex items-start gap-8 md:max-w-[550px]" },
+    { logo: "/images/icon-phone.svg", text: "+1-543-123-4567", styles: "flex items-center gap-8" },
+    { logo: "/images/icon-email.svg", text: "example@fylo.com", styles: "flex items-center gap-8" },
 ]
 
 export const features: featuresProps[] = [

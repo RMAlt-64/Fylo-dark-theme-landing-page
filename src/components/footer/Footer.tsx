@@ -14,7 +14,7 @@ export const Footer = () => {
             <img src={"/images/logo.svg"} alt="Logo" className="w-[198px] h-[60px] mb-16" />
 
 
-            <div className="flex flex-col gap-4 md:flex-row">
+            <div className="flex flex-col gap-4 md:flex-row md:gap-12">
                 <ExportLocalitation styles="flex-1" {...contactDetails[0]} />
 
                 <div className="flex flex-col gap-4 flex-1">
