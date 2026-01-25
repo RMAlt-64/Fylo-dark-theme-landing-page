@@ -7,7 +7,7 @@ export const ExportLocalitation = ({ logo, text, styles = "" }: LocalitationProp
     return (
 
         <div className={styles}>
-            <img src={logo} alt="Logo" className="mt-1" />
+            <img src={logo} alt="Logo" />
             <p>{text}</p>
         </div>
     )
