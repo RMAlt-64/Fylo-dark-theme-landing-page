@@ -3,12 +3,12 @@ import type { LocalitationProps } from "./types";
 
 
 
-export const ExportLocalitation = ({ logo, text, className }: LocalitationProps) => {
+export const ExportLocalitation = ({ logo, text, styles = "" }: LocalitationProps) => {
     return (
 
-        <div className={className}>
-            <img src={logo} alt="Logo" className="" />
-            <p className="md: w-[200px]">{text}</p>
+        <div className={styles}>
+            <img src={logo} alt="Logo" className="mt-1" />
+            <p>{text}</p>
         </div>
     )
 }

@@ -1,7 +1,7 @@
 export interface LocalitationProps {
     logo: string;
     text: string;
-    className?: string;
+    styles?: string;
 }
 
 export interface featuresProps {
