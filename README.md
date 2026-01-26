@@ -61,7 +61,7 @@ npm run build
 ![Desktop Screenshot](./public/screenshots/preview.jpg)
 
 ### Móvil
-![Mobile Screenshot](./public/screenshots/mobile-desing.jpg)
+![Mobile Screenshot](./public/screenshots/mobile-design.jpg)
 
 ## 📄 Licencia
 
