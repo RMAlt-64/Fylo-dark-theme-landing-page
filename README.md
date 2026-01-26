@@ -1,6 +1,6 @@
 # Fylo Dark Theme Landing Page
 
-![Design Preview](./design/desktop-preview.jpg)
+![Design Preview](./public/screenshots/preview.jpg)
 
 ## 📝 Descripción
 
@@ -58,10 +58,10 @@ npm run build
 ## 📸 Capturas de Pantalla
 
 ### Escritorio
-![Desktop Screenshot]([./ruta/a/imagen-desktop.png])
+![Desktop Screenshot](./public/screenshots/preview.jpg)
 
 ### Móvil
-![Mobile Screenshot]([./ruta/a/imagen-mobile.png])
+![Mobile Screenshot](./public/screenshots/mobile-desing.jpg)
 
 ## 📄 Licencia
 
