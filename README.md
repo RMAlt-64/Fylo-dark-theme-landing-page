@@ -1,73 +1,68 @@
-# React + TypeScript + Vite
+# Fylo Dark Theme Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Design Preview](./design/desktop-preview.jpg)
 
-Currently, two official plugins are available:
+## 📝 Descripción
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Esta es una solución al desafío [Fylo dark theme landing page](https://www.frontendmentor.io/challenges/fylo-dark-theme-landing-page-5ca5f2d21e82137ec91a50fd) de Frontend Mentor.  
+El proyecto consiste en una landing page moderna con un tema oscuro y layout responsivo, ideal para practicar maquetación avanzada con CSS Grid y Flexbox.
 
-## React Compiler
+## 🚀 Tecnologías Utilizadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+-   **[React](https://react.dev/)** - Biblioteca para interfaces de usuario.
+-   **[TypeScript](https://www.typescriptlang.org/)** - Superset de JavaScript con tipado estático.
+-   **[Tailwind CSS](https://tailwindcss.com/)** - Framework de utilidades CSS para diseño rápido.
+-   **[Vite](https://vitejs.dev/)** - Entorno de desarrollo frontend de nueva generación.
 
-## Expanding the ESLint configuration
+## 📂 Características
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+-   🎨 Diseño completamente responsivo (Mobile First).
+-   🌙 Tema oscuro por defecto.
+-   ✨ Componentes reutilizables con React.
+-   📏 Tipado estricto con TypeScript.
+-   ⚡ Desarrollo y build ultra rápidos con Vite.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🛠️ Instalación y Configuración
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+Sigue estos pasos para correr el proyecto localmente:
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### 1. Clonar el repositorio
+
+```bash
+git clone https://github.com/tu-usuario/fylo-dark-theme-landing-page.git
+cd fylo-dark-theme-landing-page
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### 2. Instalar dependencias
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Asegúrate de tener Node.js instalado.
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm install
 ```
+
+### 3. Ejecutar servidor de desarrollo
+
+```bash
+npm run dev
+```
+
+La aplicación estará disponible en `http://localhost:5173`.
+
+### 4. Construir para producción
+
+```bash
+npm run build
+```
+
+## 📸 Capturas de Pantalla
+
+### Escritorio
+![Desktop Screenshot]([./ruta/a/imagen-desktop.png])
+
+### Móvil
+![Mobile Screenshot]([./ruta/a/imagen-mobile.png])
+
+## 📄 Licencia
+
+Este proyecto es de uso libre para fines educativos.
